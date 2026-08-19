@@ -1,0 +1,9 @@
+{
+  "item.komarsuniquetext.steel": "Steel",
+  "item.komarsuniquetext.aluminium": "aluminium",
+  "item.komarsuniquetext.raw_aluminium": "raw bauxite",
+
+  "block.komarsuniquetext.aluminium_block": "block of aluminium",
+  "block.komarsuniquetext.bauxite_ore": "bauxite ore",
+  "block.komarsuniquetext.deepslate_bauxite_ore": "deepslate bauxite ore"
+}
