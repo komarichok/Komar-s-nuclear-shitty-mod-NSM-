@@ -1,3 +1,28 @@
+Komar's nucleat shitty mod
+or KNSM
+===========
+what is it?
+
+i'am planning on making my own nuclear tech mod,inspired by HBM NTM
+it will be on neoforge 1.21.1 
+it is my first project
+i wish to make as many features as i can
+i'll try to update it mostly everyday but a little bit
+
+planned features
+=======
+-metalurgy
+--expand anvil use
+--blast furnace
+--alloys
+--blacksmithing
+-alloys at first will include
+--steel
+--cast iron
+--bronze
+--brass
+it will be first features that i will add
+and i will expand their amount day to day
 
 Installation information
 =======
