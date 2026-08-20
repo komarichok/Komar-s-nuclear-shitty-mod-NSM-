@@ -1,8 +1,5 @@
 package com.komar.NSM;
 
-import com.komar.NSM.block.Modblocks;
-import com.komar.NSM.item.ModCreativeModeTabs;
-import com.komar.NSM.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -40,12 +37,6 @@ public class Knsm {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        ModCreativeModeTabs.register(modEventBus);
-
-
-        ModItems.register(modEventBus);
-        Modblocks.register(modEventBus);
-
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -71,7 +62,8 @@ public class Knsm {
 
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
